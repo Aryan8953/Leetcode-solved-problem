@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0009-palindrome-number) |
+| [0189-rotate-array](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0189-rotate-array) |
 ## Tree
 |  |
 | ------- |
@@ -33,8 +34,10 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0189-rotate-array](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0189-rotate-array) |
 ## Two Pointers
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0189-rotate-array](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
