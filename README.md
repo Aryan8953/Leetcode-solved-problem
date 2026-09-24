@@ -40,4 +40,9 @@
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0189-rotate-array) |
+| [0345-reverse-vowels-of-a-string](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0345-reverse-vowels-of-a-string) |
+## String
+|  |
+| ------- |
+| [0345-reverse-vowels-of-a-string](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0345-reverse-vowels-of-a-string) |
 <!---LeetCode Topics End-->
