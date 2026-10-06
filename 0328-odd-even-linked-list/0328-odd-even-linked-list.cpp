@@ -14,32 +14,19 @@ public:
         if(!head || !head->next){
             return head;
         }
-        std::vector<int>odd_vals;
-        std::vector<int>even_vals;
 
-        ListNode* current=head;
-        int index=1;
+        ListNode* odd=head;
+        ListNode* even=head->next;
+        ListNode* evenHead=even;     //save the head of even list so we can attach it later
 
-        while(current!=nullptr){
-            if(index%2!=0){
-                odd_vals.push_back(current->val);
-            }
-            else{
-                even_vals.push_back(current->val);
-            }
-            current=current->next;
-            index++;
+        while(even !=nullptr && even->next != nullptr){
+            odd->next=even->next;
+            odd=odd->next;
+            even->next=odd->next;
+            even=even->next;;
         }
-
-        current=head;
-        for(int val:odd_vals){
-            current->val=val;
-            current=current->next;
-        }
-        for(int val:even_vals){
-            current->val=val;
-            current=current->next;
-        }
+        odd->next=evenHead;
         return head;
     }
 };
+        
