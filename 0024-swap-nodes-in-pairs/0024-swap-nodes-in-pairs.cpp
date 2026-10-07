@@ -13,24 +13,13 @@ public:
     ListNode* swapPairs(ListNode* head) {
         if(!head || !head->next) return head;
 
-        ListNode* dummy=new ListNode(0);
-        dummy->next=head;
-        ListNode* prev=dummy;
-        while (prev->next!=nullptr && prev->next->next !=nullptr){
+        ListNode* first =head;
+        ListNode* second=head->next;
 
-            ListNode* first=prev->next;
-            ListNode* second=prev->next->next;
+        first->next= swapPairs(second->next);
 
-            first->next=second->next;
-            second->next=first;
-            prev->next=second;
+        second->next = first;
 
-            prev=first;
-        }
-        
-        ListNode* newHead = dummy->next;
-        delete dummy;
-        return newHead;
-        
+        return second;  
     }
 };
