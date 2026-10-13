@@ -40,6 +40,7 @@
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0189-rotate-array) |
+| [0238-product-of-array-except-self](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0238-product-of-array-except-self) |
 ## Two Pointers
 |  |
 | ------- |
@@ -56,4 +57,8 @@
 |  |
 | ------- |
 | [0160-intersection-of-two-linked-lists](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0160-intersection-of-two-linked-lists) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
