@@ -41,6 +41,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0238-product-of-array-except-self) |
+| [0560-subarray-sum-equals-k](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0560-subarray-sum-equals-k) |
 ## Two Pointers
 |  |
 | ------- |
@@ -57,8 +58,10 @@
 |  |
 | ------- |
 | [0160-intersection-of-two-linked-lists](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0160-intersection-of-two-linked-lists) |
+| [0560-subarray-sum-equals-k](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0560-subarray-sum-equals-k) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0238-product-of-array-except-self) |
+| [0560-subarray-sum-equals-k](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
