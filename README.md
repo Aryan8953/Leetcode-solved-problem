@@ -29,6 +29,7 @@
 | [0024-swap-nodes-in-pairs](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0024-swap-nodes-in-pairs) |
 | [0061-rotate-list](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0061-rotate-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0160-intersection-of-two-linked-lists) |
+| [0237-delete-node-in-a-linked-list](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0328-odd-even-linked-list) |
 ## Recursion
 |  |
