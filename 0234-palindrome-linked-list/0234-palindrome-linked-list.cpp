@@ -10,21 +10,42 @@
  */
 class Solution {
 public:
-    bool isPalindrome(ListNode* head) {
-        vector<int> arr;
+    ListNode* reverseList(ListNode*head){
+        ListNode* prev=NULL;
+        ListNode* curr=head;
 
-        ListNode* temp=head;
-        while(temp!=NULL){
-            arr.push_back(temp->val);
-            temp=temp->next;
+        while(curr!=NULL){
+            ListNode* next=curr->next;//to ensure rest node will not lost
+
+            curr->next=prev; //curr ka link reverse
+
+            prev=curr; // pointers ange badhao
+            curr=next;
+
         }
-        int n=arr.size();
-        for(int i=0;i<n/2 ;i++){
-            if (arr[i]!=arr[n-1-i]){
-                return false;
-            }
+        return prev; //reverse list ka new head
+    }
+    bool isPalindrome(ListNode* head) {
+        if(head==NULL || head->next==NULL) return true;
+
+        ListNode* slow=head;
+        ListNode* fast=head;
+
+        while(fast->next!=NULL && fast->next->next!=NULL){
+            slow=slow->next;
+            fast=fast->next->next;
+        }
+
+        ListNode* secondHalf=reverseList(slow->next);
+        ListNode* firstHalf=head;
+
+        while(secondHalf!=NULL){
+            if(firstHalf->val!=secondHalf->val) return false;
+            
+            firstHalf=firstHalf->next;
+            secondHalf=secondHalf->next;
         }
         return true;
-
+        
     }
 };
