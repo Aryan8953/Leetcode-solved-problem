@@ -10,32 +10,48 @@
  */
 class Solution {
 public:
+    ListNode* reverseList(ListNode*head){
+         ListNode*prev=NULL;
+         ListNode*curr=head;
+
+         while(curr!=NULL){
+            ListNode* next=curr->next;
+
+            curr->next=prev;
+            prev=curr;
+            curr=next;
+         }
+         return prev;
+        }
     void reorderList(ListNode* head) {
-        if(!head || !head->next){
-            return;
+
+        if(!head || !head->next) return;
+
+        ListNode*slow=head;
+        ListNode*fast=head;
+
+        while(fast->next!=NULL && fast->next->next!=NULL){
+            slow=slow->next;
+            fast=fast->next->next;
         }
-        vector<ListNode*> nodes;
-        ListNode* temp= head;
 
-        while(temp!=NULL){
-            nodes.push_back(temp);
-            temp=temp->next;
-        }
+        ListNode* second=slow->next;
+        slow->next=NULL;
+        second=reverseList(second);
 
-        int i=0;
-        int j=nodes.size()-1;
+        ListNode* first=head;
 
-        while(i<j){
-            nodes[i]->next=nodes[j];
-            i++;
+        while(second!=NULL){
+            ListNode* firstNext=first->next;
+            ListNode* secondNext=second->next;
 
-            if(i==j) break;
+            first->next=second;
+            second->next=firstNext;
 
-            nodes[j]->next=nodes[i];
-            j--;
+            first=firstNext;
+            second=secondNext;
 
         }
-        nodes[i]->next=NULL; // prevents cycle
         
     }
 };
