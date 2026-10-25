@@ -15,29 +15,28 @@ public:
         ListNode * dummy=new ListNode(0);
         dummy->next=head;
 
-        int count=0;
-        ListNode * temp=head;
-        while (temp!=NULL){
-            temp=temp->next;
-            count++;
-        }
-
-        ListNode* prev=dummy;
-        for(int i=0;i<count-n;i++){
-            prev=prev->next;
+        ListNode* slow=dummy;
+        ListNode* fast=dummy;
+        
+        for(int i=0;i<n+1;i++){
+            fast=fast->next;
         }
 
          //remove target node
+        while(fast!=nullptr){
+            slow=slow->next;
+            fast=fast->next;
+        }
 
-         ListNode* toDelete=prev->next;
-         prev->next=prev->next->next;
+         ListNode* toDelete=slow->next;
+         slow->next=slow->next->next;
          delete toDelete;
 
          //return new head
         
         ListNode* newHead=dummy->next;
         delete dummy;
-        
+
         return newHead;
     }
 };
