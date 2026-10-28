@@ -20,13 +20,16 @@ public:
         while(temp->next!=NULL){
         
             if (temp->next->val==val){
+                ListNode* duplicate = temp->next;
                 temp->next=temp->next->next;
+                delete duplicate;
             }
             else{
             temp=temp->next;
             }
         }
-    
-        return dummy->next;
+        ListNode* newHead = dummy->next;
+        delete dummy;
+        return newHead;
     }
 };
