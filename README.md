@@ -7,6 +7,7 @@
 | [0002-add-two-numbers](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0009-palindrome-number) |
 | [0189-rotate-array](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0189-rotate-array) |
+| [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 ## Tree
 |  |
 | ------- |
@@ -40,6 +41,7 @@
 | [0237-delete-node-in-a-linked-list](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0328-odd-even-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0876-middle-of-the-linked-list) |
+| [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 ## Recursion
 |  |
 | ------- |
