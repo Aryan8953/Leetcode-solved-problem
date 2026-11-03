@@ -7,6 +7,7 @@
 | [0002-add-two-numbers](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0009-palindrome-number) |
 | [0189-rotate-array](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0202-happy-number) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 ## Tree
 |  |
@@ -71,6 +72,7 @@
 | [0143-reorder-list](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0143-reorder-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0234-palindrome-linked-list) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0345-reverse-vowels-of-a-string) |
 | [0876-middle-of-the-linked-list](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0876-middle-of-the-linked-list) |
@@ -84,6 +86,7 @@
 | [0141-linked-list-cycle](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0160-intersection-of-two-linked-lists) |
+| [0202-happy-number](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0202-happy-number) |
 | [0560-subarray-sum-equals-k](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0560-subarray-sum-equals-k) |
 ## Prefix Sum
 |  |
@@ -95,6 +98,7 @@
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0142-linked-list-cycle-ii) |
+| [0202-happy-number](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0202-happy-number) |
 ## Stack
 |  |
 | ------- |
