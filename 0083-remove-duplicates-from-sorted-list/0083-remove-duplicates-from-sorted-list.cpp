@@ -11,26 +11,19 @@
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        if(head==nullptr) return head;
-        
-        ListNode* temp=head;
-        unordered_set<int> seen;
-        seen.insert(temp->val);
-        while(temp->next!=nullptr){
-            if (seen.count(temp->next->val)){
-                ListNode* dupplicate=temp->next;
-                temp->next=temp->next->next;
+        ListNode* curr=head;
+
+        while(curr!=NULL && curr->next!=NULL){      //this conditon can not be back and forth
+            if(curr->val==curr->next->val){
+                ListNode* dupplicate=curr->next;
+                curr->next=curr->next->next; /// not doing curr=curr->next because kyuki 3rd node bhi same hoskta hai
                 delete dupplicate;
             }
             else{
-                seen.insert(temp->next->val);
-                temp=temp->next;
-
+                curr=curr->next;
             }
+
         }
         return head;
-
-
-        
     }
 };
