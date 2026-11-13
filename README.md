@@ -45,6 +45,7 @@
 | [0328-odd-even-linked-list](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0328-odd-even-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0876-middle-of-the-linked-list) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
@@ -79,6 +80,7 @@
 | [0287-find-the-duplicate-number](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0287-find-the-duplicate-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0345-reverse-vowels-of-a-string) |
 | [0876-middle-of-the-linked-list](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/0876-middle-of-the-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Aryan8953/Leetcode-solved-problem/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## String
 |  |
 | ------- |
