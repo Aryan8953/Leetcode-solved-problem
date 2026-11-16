@@ -2,32 +2,46 @@ class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
 
-        if (head == nullptr || k == 1) {
-            return head;
+        ListNode dummy(0);
+        dummy.next = head;
+
+        ListNode* groupPrev = &dummy;
+
+        while (true) {
+
+            // Find kth node
+            ListNode* kth = groupPrev;
+
+            for (int i = 0; i < k && kth != nullptr; i++) {
+                kth = kth->next;
+            }
+
+            // Not enough nodes
+            if (kth == nullptr) {
+                break;
+            }
+
+            ListNode* groupNext = kth->next;
+
+            // Reverse current group
+            ListNode* prev = groupNext;
+            ListNode* curr = groupPrev->next;
+
+            while (curr != groupNext) {
+
+                ListNode* next = curr->next;
+
+                curr->next = prev;
+                prev = curr;
+                curr = next;
+            }
+
+            // Connect reversed group
+            ListNode* temp = groupPrev->next;
+            groupPrev->next = kth;
+            groupPrev = temp;
         }
 
-        vector<ListNode*> nodes;
-
-        ListNode* curr = head;
-
-        while (curr != nullptr) {
-            nodes.push_back(curr);
-            curr = curr->next;
-        }
-
-        int n = nodes.size();
-
-        for (int i = 0; i + k <= n; i += k) {
-            reverse(nodes.begin() + i,
-                    nodes.begin() + i + k);
-        }
-
-        for (int i = 0; i < n - 1; i++) {
-            nodes[i]->next = nodes[i + 1];
-        }
-
-        nodes[n - 1]->next = nullptr;
-
-        return nodes[0];
+        return dummy.next;
     }
 };
